@@ -1,0 +1,311 @@
+/* css */
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    /* background-color: black; */
+    margin: 0;
+}
+.container{
+    margin: 2px;
+    /* border: 2px solid blue; */
+    /* width: 90vw; */
+    /* margin: 10px auto; */
+    /* background-color: black;     */
+}
+.top-header{
+    /* background-color: black; */
+    margin: 10px auto;
+    width: 90vw;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+.airbnb-logo{
+    cursor: pointer;
+    /* margin-top: 5px; */
+    margin-left: 15px;
+    color: #FF385C;
+    padding: 5px;
+    height: 50px;
+}
+.search{
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 24px;
+    display: flex;
+    /* background-color: black; */
+    height: 100%;
+    margin-left: 70px;
+    justify-content: space-between;
+    gap: 10px;
+    /* font-weight: 500; */
+    cursor: pointer;
+}
+.btn{
+    cursor: pointer;
+    background-color: #FF385C;
+    border-radius: 50%;
+    border: none;
+    padding: 3px;
+    color: #fff;
+}
+.top-right-header{
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    /* margin-top: 11px; */
+    gap: 10px;
+    margin-left: 155px;
+}
+.the-text{
+    padding: 5px;
+}
+.the-text:hover{
+    background-color: lightgray;
+    border-radius: 24px;
+}
+.accounts{
+    cursor: pointer;
+    display: flex;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 24px;    
+    /* margin-right: 100px; */
+    height: 20px;
+    width: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.accounts:hover{
+    background-color: lightgray;
+}
+
+/* CSS */
+.zoomed-in {
+    color: gray;
+    height: 100%;
+    width: 32px;
+    padding: 0;
+}
+  
+.zoomed-out {
+    color: gray;
+    height: 25px;
+    padding: 0;
+    width: 100%;
+}
+  
+.web-icon{
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+}
+.web-icon:hover{
+    background-color: lightgray;
+}
+.search-options{
+    display: flex;
+    padding: 4px;
+    align-items: center;
+
+}
+.search-box-option-1{
+    font-weight: 400;
+    padding: 0 15px;
+}
+.search-box-option-2{
+    font-weight: 400;
+    border-left: 1px solid lightgray;
+    margin-left: 2px;
+    padding: 0 12px;
+}
+.search-box-option-3{
+    font-weight: 100;
+    margin-left: 3px;
+    border-left: 1px solid lightgray;
+    padding: 0 11px;
+}
+.head-seperation{
+    margin-top: 0;
+    border-bottom: 1px solid lightgray;
+}
+
+/* Bottom header starts  */
+.bottom-header{
+    width: 90vw;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* .bottom-header div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid lightgray;
+    border-radius: 24px;
+    padding: 0 10px;
+} */
+.price{
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    padding: 0 10px;
+    height: 40px;
+}
+.language-Offered{
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    padding: 0 10px;
+    height: 40px;
+}
+.time-of-day{
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    padding: 0 10px;
+    height: 40px;
+}
+.art{
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    padding: 0 10px;
+    height: 40px;
+}
+.entertainment{
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    padding: 0 10px;
+    height: 40px;
+}
+.food{
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    padding: 0 10px;
+    height: 40px;
+}
+.sports{
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    padding: 0 10px;
+    height: 40px;
+}
+.filters{
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    padding: 0 10px;
+    height: 40px;
+}
+.filter-icon{
+    color: black;
+    
+}
+.arrow-icon{
+    color: black;
+}
+.bottom-header div:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+.border-left{
+    border: none;
+    border-left: 1px solid lightgray;
+}
+/* bottom header ends */
+.bottom-header-seperation{
+    margin: 0 auto;
+    width: 90vw;
+    font-weight: 500;
+}
+/* cards starts here */
+/* Styles for the destination cards and the grid container */
+.destination-grid {
+    width: 90vw;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+  
+.destination-card {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    /* background-color: gray; */
+    height: 340px;
+    padding: 10px;
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adding a subtle shadow for card effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* To push content to the top and bottom */
+}
+  
+.card-content {
+    height: 10px;
+    align-items: center;
+    /* text-align: center; */
+    /* width: 100%; */ /* No need to set width, as it will inherit from parent */
+}
+  
+.card-img {
+    transform: scale(1.1);
+    transform: translate(0% , -30%);
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 8px; /* To match the border radius of the card */
+}
+
+
+.stars{
+    transform: translate(0% , -100%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.desc{
+    transform: translate(0% , -170%);
+    font-weight: 500;
+}
+.card-pricing{
+    transform: translate(0% , -350%);
+}
+.heart-logo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    color: white;
+    background-color: rgb(224, 212, 212);
+    border-radius: 50%;
+}
