@@ -1,0 +1,63 @@
+.destination-grid {
+    width: 90vw;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+  
+.destination-card {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    /* background-color: gray; */
+    height: 340px;
+    padding: 10px;
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adding a subtle shadow for card effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* To push content to the top and bottom */
+}
+  
+.card-content {
+    height: 10px;
+    align-items: center;
+    /* text-align: center; */
+    /* width: 100%; */ /* No need to set width, as it will inherit from parent */
+}
+  
+.card-img {
+    transform: scale(1.1);
+    transform: translate(0% , -30%);
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 8px; /* To match the border radius of the card */
+}
+
+
+.stars{
+    transform: translate(0% , -100%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.desc{
+    transform: translate(0% , -170%);
+    font-weight: 500;
+}
+.card-pricing{
+    transform: translate(0% , -350%);
+}
+.heart-logo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    color: white;
+    background-color: rgb(224, 212, 212);
+    border-radius: 50%;
+}
